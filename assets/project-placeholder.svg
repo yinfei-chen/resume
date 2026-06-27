@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Project image placeholder</title>
+  <desc id="desc">A clean project screenshot placeholder for the resume website.</desc>
+  <rect width="960" height="540" fill="#f8faf9"/>
+  <rect x="88" y="76" width="784" height="388" rx="8" fill="#ffffff" stroke="#d8dee4" stroke-width="4"/>
+  <rect x="132" y="124" width="302" height="30" rx="6" fill="#2563eb"/>
+  <rect x="132" y="184" width="696" height="18" rx="4" fill="#d8dee4"/>
+  <rect x="132" y="226" width="540" height="18" rx="4" fill="#d8dee4"/>
+  <rect x="132" y="300" width="192" height="84" rx="8" fill="#dbeafe"/>
+  <rect x="384" y="300" width="192" height="84" rx="8" fill="#e2e8f0"/>
+  <rect x="636" y="300" width="192" height="84" rx="8" fill="#e5e7eb"/>
+  <path d="M92 464 868 76" stroke="#94a3b8" stroke-width="4" stroke-dasharray="14 18" opacity=".48"/>
+</svg>

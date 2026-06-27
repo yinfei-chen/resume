@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="440" viewBox="0 0 440 440" role="img" aria-labelledby="title desc">
+  <title id="title">Profile photo placeholder</title>
+  <desc id="desc">A clean profile image placeholder for the resume website.</desc>
+  <rect width="440" height="440" fill="#f8faf9"/>
+  <circle cx="220" cy="176" r="78" fill="#dbeafe"/>
+  <path d="M92 390c18-76 70-120 128-120s110 44 128 120" fill="#dbeafe"/>
+  <circle cx="220" cy="220" r="205" fill="none" stroke="#2563eb" stroke-width="10"/>
+  <path d="M84 84h272v272H84z" fill="none" stroke="#94a3b8" stroke-width="4" stroke-dasharray="12 16" opacity=".7"/>
+</svg>
