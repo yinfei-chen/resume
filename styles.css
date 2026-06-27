@@ -86,12 +86,14 @@ button {
 
 .brand-mark {
   display: inline-grid;
-  width: 34px;
+  width: 38px;
   height: 34px;
   place-items: center;
   border-radius: 6px;
   background: var(--accent);
   color: white;
+  font-size: 0.78rem;
+  letter-spacing: 0;
 }
 
 .topnav {
@@ -132,6 +134,7 @@ button {
 }
 
 .resume-sheet {
+  position: relative;
   display: grid;
   grid-template-columns: 310px minmax(0, 1fr);
   min-height: 1040px;
@@ -142,9 +145,20 @@ button {
   box-shadow: var(--shadow);
 }
 
+.resume-sheet::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  height: 4px;
+  background: linear-gradient(90deg, #2563eb, #14b8a6 48%, #94a3b8);
+  content: "";
+}
+
 .sidebar {
   padding: 34px 26px;
-  background: var(--sidebar);
+  background: linear-gradient(180deg, #ffffff 0%, var(--sidebar) 64%, #eef6ff 100%);
   color: var(--sidebar-ink);
   border-right: 1px solid var(--line);
 }
@@ -164,6 +178,7 @@ button {
   border-radius: 12px;
   object-fit: cover;
   background: var(--paper);
+  box-shadow: 0 14px 32px rgba(16, 24, 40, 0.1);
 }
 
 .eyebrow,
@@ -298,6 +313,8 @@ meter::-webkit-meter-optimum-value {
   display: grid;
   gap: 2px;
   margin-bottom: 18px;
+  padding-left: 14px;
+  border-left: 3px solid var(--accent);
 }
 
 .section-heading h2 {
@@ -324,7 +341,8 @@ meter::-webkit-meter-optimum-value {
   padding: 16px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: #f9fafb;
+  background: linear-gradient(180deg, #ffffff 0%, #f9fafb 100%);
+  box-shadow: 0 8px 22px rgba(16, 24, 40, 0.04);
 }
 
 .highlight-strip strong {
@@ -403,6 +421,7 @@ meter::-webkit-meter-optimum-value {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--paper);
+  box-shadow: 0 8px 22px rgba(16, 24, 40, 0.04);
 }
 
 .project-card--compact {
